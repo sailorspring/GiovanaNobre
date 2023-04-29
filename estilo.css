@@ -1,0 +1,316 @@
+@import url('https://fonts.cdnfonts.com/css/louis-george-cafe');
+@import url('https://fonts.cdnfonts.com/css/hatolie');
+
+
+*{
+margin: 0;
+}
+
+.corpo{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #1d1e1b, #af3132);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 15vh;
+}
+.cabecalho{
+    height: 25vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+
+}
+.botoes a{
+    text-decoration: none;
+    color: white;
+    font-size: 22pt;
+    text-transform: uppercase;
+    font-family: 'Louis George Café Light', sans-serif;
+    letter-spacing: 3px;
+}
+.linha{
+    height: 50px;
+    margin-left: 80px;
+    border-left: 1px solid white;
+}
+
+main{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo img{
+    width: 700px;
+}
+
+.botao{
+    background-image: linear-gradient(to right,#1d1e1b, #af3132);
+    border: none;
+    width: 12vw;
+    height: 10vh;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Louis George Café', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+
+.qsconteudo{
+display: flex;
+width: 100vw;
+justify-content: space-evenly;
+}
+
+#fotogiovana{
+    height: 70vh;
+}
+
+#quemsomos{
+    width: 30vw;
+    margin-bottom: 30px;
+}
+
+#textosqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#textosqs p {
+    width: 40vw;
+    color: white;
+    font-size: 18px;
+    font-family: 'Louis George Café', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+
+}
+
+.highlight{
+    text-shadow:
+    0 0 7px #fa8c8c,
+    0 0 10px #ec8888,
+    0 0 21px rgb(236, 100, 100)
+    ;
+}
+
+#tabelaservicos{
+    height: 72vh;
+}
+
+#divcontato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.botaosocial{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.botaosocial p{
+    color: white;
+    font-size: 30px;
+    font-family: 'Louis George Café Light', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.botaosocial img{
+    width: 18vw;
+}
+
+#msgcontato{
+    color: white;
+    font-size: 36px;
+    font-family: 'Louis George Café', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 70px;
+}
+
+#secaoportifolio{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+.cardsPortifolio img{
+    width: 17vw;
+}
+.cardsPortifolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+}
+
+.cardsPortifolio p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Hatolie', sans-serif;
+    color: white;
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+}
+
+.botaolink{
+    text-decoration: none;
+}
+
+#secaoportifolio a{
+    text-decoration: none;
+}
+
+.fotosportifolio{
+    display: flex;
+}
+
+.textostrabalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+}
+
+.titulotrabalho{
+    font-family: 'Hatolie', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    width: 65%;
+}
+.descricaoTrabalho{
+    color: white;
+    font-size: 19px;
+    font-family: 'Louis George Café', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 40px;
+    text-align: center;
+    width: 71%;
+    line-height: 25px;
+}
+
+.navegacao{
+    position: absolute;
+    bottom: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacao p{
+    font-family: 'Hatolie', sans-serif;
+    color: white;
+    font-weight: lighter;
+    font-size: 60px;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.cadastro{
+    color: white;
+    font-size: 35px;
+    font-family: 'Louis George Café', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 40px;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.cadastro input{
+    font-family: 'Louis George Café', sans-serif;
+    width: 100%;
+    border: 0;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    outline: 0;
+    font-size: 1.3rem;
+    color: white;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.cadastro button{
+    position: absolute;
+    bottom: 50px;
+}
+
+#obs{
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: 1px;    
+    margin-top: 20px;
+    
+}
+
+#campoobs{
+    width: 100%;
+}
+
+#coracaobosvindas{
+    margin-top: 100px;
+}
+
+.boasvindas{
+    color: white;
+    font-size: 35px;
+    font-family: 'Louis George Café', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 40px;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.boasvindas button{
+    margin-right: 0;
+    width: 35%;
+}
+
